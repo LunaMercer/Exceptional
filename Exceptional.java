@@ -21,7 +21,8 @@ public class Exceptional {
 		int result = 0;
 		try {
 			for (int i = 0; i < n; i++)
-				result += a[i]; result /= a.length;
+				result += a[i]; 
+			result /= a.length;
 		} catch (ArrayIndexOutOfBoundsException aioobe) { 
 			System.out.println("Oops!");
 		} catch (NullPointerException npe) { 
